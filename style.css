@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgba(7, 154, 173, 0.507), rgba(79, 31, 190, 0.658));
+}
+ 
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:antiquewhite;
+}
+
+#mostrar {
+    display: none;
+    text-align: center;
+}
+
+#passar_mouse:hover #mostrar {
+    display: block;
+}
+
+p.paragrafo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.user{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.desc{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.copyright {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#submit {
+    border-radius: 5px;
+    padding: 3px;   
+}
+
+#titulo-img-video {
+    font-size: 20px;
+    color:antiquewhite;
+}
+
+#img {
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#descricao {
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+#copy {
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.rodape {
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    color: antiquewhite;
+    margin: 20px;
+}
+
+.gitHub {
+    width: 20px;
+    height: 20px
+}
+

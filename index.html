@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>APOD NASA</title>
+</head>
+
+<body class="content">
+    <div id="passar_mouse">
+        <h1>Astronomy - Pictures of the day</h1>
+        <div id="mostrar">Astronomia - Fotos do dia</div>
+    </div> <br>
+
+    <div id="passar_mouse">
+        <p class="paragrafo">Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.
+        </p>
+        <div id="mostrar">A cada dia é apresentada uma imagem ou fotografia diferente do nosso fascinante universo,
+            juntamente
+            com uma breve explicação escrita por um astrônomo profissional
+        </div>
+    </div>
+    <br>
+    <div>
+        <label for="data" class="user">
+            <p>Select a date below:</p>
+            <input type="date" name="date" id="data" min="1995-06-16"> 
+        </label>
+    </div>
+    <br>
+    <button id="submit">Search</button>   
+    <br>
+    <h2 id="titulo-img-video"></h2>
+    <br>
+    <img src="" alt="" id="img">
+
+    <iframe src="" frameborder="0" id='video' width="560" height='315'></iframe>
+    <br>
+    <div class="desc"> <p id="descricao"></p></div>
+    <br>
+    <div class="copyright"><p id="copy"></p></div>
+
+    
+    <footer class="rodape">
+        <p> &reg; &copy; Created by Madalena. All right reserved
+            <a href="https://github.com/Mada-k?tab=repositories" target="_blank">
+                <img src="./github.png" alt="" class="gitHub">
+            </a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="codigo.js"></script>
+    
+</body>
+
+</html>
