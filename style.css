@@ -1,56 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-image: url("cosmos.jpg");
     background-size: cover;
-}
- 
-.content {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
 #mostrar {
     display: none;
     text-align: center;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
 #passar_mouse:hover #mostrar {
     display: block;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-p.paragrafo {
-    display:flex;
+.paragrafo {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 18px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.user{
-    display:flex;
+.user {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-.desc{
-    display:flex;
+.desc {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 5px;
@@ -58,19 +57,32 @@ p.paragrafo {
 }
 
 .copyright {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite; 
+}
+
+.gitHub {
+    width: 20px;
+    height: 20px
+}
+
 #submit {
     border-radius: 5px;
-    padding: 3px;   
+    padding: 3px;
 }
 
 #titulo-img-video {
     font-size: 20px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
 #img {
@@ -81,23 +93,10 @@ p.paragrafo {
 
 #descricao {
     font-size: 18px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
 #copy {
     font-size: 18px;
-    color:antiquewhite;
+    color: antiquewhite;
 }
-
-.rodape {
-    display:flex;
-    align-items: flex-end;
-    flex-direction: column;
-    color: antiquewhite;     
-}
-
-.gitHub {
-    width: 20px;
-    height: 20px
-}
-
