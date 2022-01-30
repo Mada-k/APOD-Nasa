@@ -4,7 +4,8 @@
 }
 
 body {
-    background: linear-gradient(to right, rgba(7, 154, 173, 0.507), rgba(79, 31, 190, 0.658));
+    background-image: url("cosmos.jpg");
+    background-size: cover;
 }
  
 .content {
@@ -23,10 +24,12 @@ h1 {
 #mostrar {
     display: none;
     text-align: center;
+    color:antiquewhite;
 }
 
 #passar_mouse:hover #mostrar {
     display: block;
+    color:antiquewhite;
 }
 
 p.paragrafo {
@@ -90,8 +93,7 @@ p.paragrafo {
     display:flex;
     align-items: flex-end;
     flex-direction: column;
-    color: antiquewhite;
-    margin: 20px;
+    color: antiquewhite;     
 }
 
 .gitHub {
